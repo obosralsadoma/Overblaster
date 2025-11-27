@@ -3,7 +3,7 @@ import pygame as p
 p.init()
 w, h = 800, 100
 s = p.display.set_mode((w, h))
-nm = "lox"
+nm = "lox1111"
 p.display.set_caption(nm)
 
 clr1 = (222, 159, 91)
