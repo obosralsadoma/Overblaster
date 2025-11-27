@@ -10,10 +10,11 @@ clr1 = (222, 159, 91)
 
 g = True
 while g:
-    for e in p.event.get:
+    for e in p.event.get():
         if e.type == p.QUIT:
             g = False
     
     s.fill(clr1)
+    p.display.flip()
 
 p.quit()
