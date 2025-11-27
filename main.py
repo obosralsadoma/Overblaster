@@ -2,7 +2,7 @@ import pygame as p
 
 p.init()
 w, h = 800, 100
-s = p.display.set_mode(w, h)
+s = p.display.set_mode((w, h))
 nm = "lox"
 p.display.set_caption(nm)
 
