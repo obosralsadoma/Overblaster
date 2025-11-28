@@ -7,7 +7,7 @@ nm = "lox"
 p.display.set_caption(nm)
 
 bg1 = (222, 159, 91)
-bg2 = (10, 124, 255)
+bg2 = (23, 153, 0)
 
 
 class Pole:
@@ -17,7 +17,7 @@ class Pole:
         self.x = x
         self.y = y
         self.rect = p.Rect(self.x, self.y, self.w, self.h)
-        self.color = (25, 166, 0)
+        self.color = (255, 221, 179)
     def draw(self, s):
         p.draw.rect(s, self.color, self.rect)
 
