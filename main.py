@@ -9,6 +9,7 @@ p.display.set_caption(nm)
 bg1 = (222, 159, 91)
 bg2 = (23, 153, 0)
 
+laro = p.image.load("images/person_laro_alpha-prototype")
 
 class Pole:
     def __init__(self, w, h, x, y):
