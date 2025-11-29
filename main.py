@@ -43,6 +43,8 @@ try:
 
     grass = Pole(200, h, 0, 0)
     g = True
+    print("Initilization has been gone successfully!")
+    print("If you see this string, all is gone successfully!")
     while g:
         for e in p.event.get():
             if e.type == p.QUIT:
@@ -51,7 +53,7 @@ try:
         s.fill(bg2)
         grass.draw(s)
         p.display.flip()
-        print("Operation has been gone successfully!")
+        
 
     p.quit()
 except BaseException as error:
