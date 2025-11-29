@@ -1,8 +1,8 @@
 print("Initialization Python Code...")
+print("Initialization library Pygame 2.6.1...")
 import pygame as p
 
 p.init()
-print("Initialization library Pygame 2.6.1...")
 print("Launching Pygame Window...")
 
 try:
@@ -15,7 +15,7 @@ try:
     bg1 = (222, 159, 91)
     bg2 = (23, 153, 0)
 
-    laro = p.image.load("images/person_laro_alpha-prototype")
+    laro = p.image.load("images/person_laro_alpha-prototype.png")
 
     class Pole:
         def __init__(self, w, h, x, y):
@@ -51,9 +51,8 @@ try:
         s.fill(bg2)
         grass.draw(s)
         p.display.flip()
+        print("Operation has been gone successfully!")
 
     p.quit()
 except BaseException as error:
     print(f"Operation has been falled by error: {error}")
-finally:
-    print("Operation has been successfully")
